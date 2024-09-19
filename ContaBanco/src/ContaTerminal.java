@@ -1,7 +1,18 @@
+/**
+ * <h1>Conta Terminal</h1>
+* A classe Conta Terminal recebe inputs de dados de uma conta bancária e as utiliza para retornar uma mensagem com essas informações
+* @author  Allan G. Alves
+* @version 1.0
+* @since   09/19/2024
+*/
+
 import java.util.Locale;
 import java.util.Scanner;
 
 public class ContaTerminal {
+    /**
+     * Este método recebe os dados da conta bancária pelo Scanner atribuindo eles a variáveis e utiliza eles para a mensagem retornada ao usuário 
+     */
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
